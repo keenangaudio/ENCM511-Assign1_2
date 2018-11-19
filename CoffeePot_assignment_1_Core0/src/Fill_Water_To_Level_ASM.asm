@@ -1,26 +1,46 @@
-/* Demonstrate_Water_Control_ASM.asm */
-/*
+/* Fill_Water_To_Level_ASM.asm */
 
-void fillCoffeePotToWaterLevel (COFFEEPOT_DEVICE* pCoffeePot, int wLevel){
-	//TODO fix this
-	ShowFunctionStubInformation("fillCoffeePotToWaterLevel");
-	//  Activate water, fill to level (blocking)
-		int currentWaterLevel = CurrentWaterLevel_CPP(pCoffeePot);
-		int neededWater =  wLevel - currentWaterLevel;
+#include "../include/Sim_CoffeePot_Simulator_Structures2018.h" //TODO check this
 
-		//if (CurrentTemperature_CPP(pCoffeePot) >= 79) neededWater+=10;
+#define COFF_POT_R0               R0
+#define W_LEVEL_R1                R1
+#define CURRENT_WATER_R2          R2
+#define NEEDED_WATER_R3           R3
 
-		if (neededWater > 255) neededWater = 255;
-		else if (neededWater < 0) neededWater = 0;
+.section L1_data;
+.char[15] _name = {'F','i','l','l',' ','W','a','t','e','r',' ','A','S','M' 0};
 
-		pCoffeePot->waterInFlowRegister  = neededWater;
-	if (CurrentWaterLevel_CPP(pCoffeePot) < wLevel) {
-		if(CurrentWaterLevel_CPP(pCoffeePot) > wLevel*4/5)
-			pCoffeePot->waterInFlowRegister = 1;
-		FastForward_OneSimulationTIC(pCoffeePot);
-	}
+//TODO check name magle (very wrong)
+.extern __Z28ShowFunctionStubInformationP16COFFEEPOT_DEVICE;
 
-	pCoffeePot->waterInFlowRegister = 0;
-}
+.extern __Z28FastForward_OneSimulationTICP16COFFEEPOT_DEVICE;
 
-*/
+.section program;
+.global _Fill_Water_To_Level_ASM;
+
+//void fillCoffeePotToWaterLevel (COFFEEPOT_DEVICE* pCoffeePot, int wLevel){
+
+_Fill_Water_To_Level_ASM:
+  LINK 32;
+  
+// TODO Activate water, fill to level
+// int currentWaterLevel = CurrentWaterLevel_CPP(pCoffeePot); //save the args
+// int neededWater = ( wLevel - currentWaterLevel );
+
+
+//  TODO if (neededWater > 255) neededWater = 255;
+//  else if (neededWater < 0) neededWater = 0;
+
+  
+//  if !(currentWaterLevel < wLevel) neededWater = 0;
+  CC = CURRENT_WATER_R3 >= W_LEVEL_R1;  //TODO this might m=not be the right operator
+
+//  TODO make sure R0 is back after calling the current water
+//	pCoffeePot->waterInFlowRegister = neededWater;
+  P0 = R0 + 7;
+  [P0] = NEEDED_WATER_R3;
+
+  UNLINK;
+
+_Fill_Water_To_Level_ASM.END:
+  RTS;
