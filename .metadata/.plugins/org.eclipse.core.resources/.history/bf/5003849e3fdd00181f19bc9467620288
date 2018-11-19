@@ -1,0 +1,47 @@
+/*	
+ *	
+ *	Demonstrate_LEDControl_ASM.asm
+ *
+ *
+ */
+  #define Fast_Forward_Function __Z28FastForward_OneSimulationTICP16COFFEEPOT_DEVICE
+  
+ .section _L1_data;
+ 
+ 
+ .section _program;
+
+ .extern Fast_Forward_Function;
+   
+ .global _Demonstrate_LEDControl_ASM.asm;
+
+ 
+ _Demonstrate_LEDControl_ASM.asm:
+ #define inArg_R0 R0
+
+ 	
+ LED_STATE_1:
+ 
+ 
+ 
+ LED_STATE_2:
+ 
+ 
+ 
+ 	switch(state) {
+	case 0:
+	case 2:
+			pCoffeePot->controlRegister |= LED1_CONTROL_BIT ;	//on
+			pCoffeePot->controlRegister &= ~LED2_CONTROL_BIT ;	//off
+			break;
+	case 1:
+			pCoffeePot->controlRegister &= ~LED1_CONTROL_BIT ;	//off
+			pCoffeePot->controlRegister |= LED2_CONTROL_BIT ;	//on
+			break;
+	default:
+		pCoffeePot->controlRegister &= ~(0xf << LED_CONTROL_FIELD_OFFSET);
+	}
+ 	CALL 
+ 
+ _Demonstrate_LEDControl_ASM.asm.END:
+ RTS;

@@ -1,0 +1,1133 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Analog Devices/CrossCore Embedded Studio 2.8.0/System/linker_log.xsl"?>
+<DOCUMENT gen_time='Wed Oct 31 14:30:05 2018
+'>
+<MSG id='0333B5B0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z19TurnOffNotificationb' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[old_Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0333B070' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z21CurrentWaterLevel_CPPP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[old_Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0333B4D0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z21OpenChannel_CoffeePotP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[old_Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03339E10' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z22CurrentTemperature_CPPP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[old_Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03339A90' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z23ReadControlRegister_CPPP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[old_Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03339B70' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z24Init_CoffeePotSimulationi' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[old_Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0333A270' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z24Init_CoffeePotSimulationi12WHICHDISPLAY' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[old_Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03339C50' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z24WriteControlRegister_CPPP16COFFEEPOT_DEVICEt' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[old_Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0333A0B0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z28FastForward_OneSimulationTICP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[old_Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0333A430' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z31CloseChannel_CauseSimulationTICP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[old_Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0333A350' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z33Add_CoffeePotToSystem_PlugAndPlay12COFFEEPOT_IDPc' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[old_Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0333B690' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z19TurnOffNotificationb' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0333B850' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z21CurrentWaterLevel_CPPP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0333B930' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z21OpenChannel_CoffeePotP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0333B770' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z22CurrentTemperature_CPPP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CC8B0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z23ReadControlRegister_CPPP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CCB50' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z24Init_CoffeePotSimulationi' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CD090' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z24Init_CoffeePotSimulationi12WHICHDISPLAY' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CBE30' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z24WriteControlRegister_CPPP16COFFEEPOT_DEVICEt' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CC0D0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z28FastForward_OneSimulationTICP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CCFB0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z31CloseChannel_CauseSimulationTICP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CBF10' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z33Add_CoffeePotToSystem_PlugAndPlay12COFFEEPOT_IDPc' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CD170' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_adi_initComponents' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[adi_initialize.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[adi_initialize.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[adi_initialize.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CD250' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_APIRequestSpaceSize' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CCA70' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_ISRRequestSpaceSize' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CCC30' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_LocalEndptSpaceSize' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CC990' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_numAnonPorts' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CBB90' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_numPorts' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CC1B0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_num_api_requests' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CC530' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_num_isr_requests' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CD330' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_num_rx_buffers' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CCD10' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_num_tx_buffers' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CCDF0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_rx_buffer_size' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CC6F0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_tx_buffer_size' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CBC70' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_vAPIRequestSpace' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CBD50' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_vISRRequestSpace' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CCED0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_vLocalEndptSpace' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CB9D0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_vReceiveBufferSpace' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CC370' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_vTransmitBufferSpace' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CC610' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_adi_mcapi_Init' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CBFF0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_adi_mcapi_info' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CD4F0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_adi_mcapi_init_parameters' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[mcapi_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CC7D0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_adi_initpinmux' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[pinmux_config.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb[pinmux_config.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[pinmux_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CC450' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z19TurnOffNotificationb' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_4Oct_DebugBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CBAB0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z21CurrentWaterLevel_CPPP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_4Oct_DebugBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CC290' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z21OpenChannel_CoffeePotP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_4Oct_DebugBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CD410' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z22CurrentTemperature_CPPP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_4Oct_DebugBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CD790' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z23ReadControlRegister_CPPP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_4Oct_DebugBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CD870' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z24Init_CoffeePotSimulationi' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_4Oct_DebugBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CD6B0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z24WriteControlRegister_CPPP16COFFEEPOT_DEVICEt' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_4Oct_DebugBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038CD5D0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z28FastForward_OneSimulationTICP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_4Oct_DebugBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DB0B0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z31CloseChannel_CauseSimulationTICP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_4Oct_DebugBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DBDD0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z33Add_CoffeePotToSystem_PlugAndPlay12COFFEEPOT_IDPc' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_4Oct_DebugBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DAD30' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z19TurnOffNotificationb' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_7Oct_ReleaseBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DBCF0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z21CurrentWaterLevel_CPPP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_7Oct_ReleaseBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DAFD0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z21OpenChannel_CoffeePotP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_7Oct_ReleaseBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DB6D0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z22CurrentTemperature_CPPP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_7Oct_ReleaseBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DAEF0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z23ReadControlRegister_CPPP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_7Oct_ReleaseBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DB430' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z24Init_CoffeePotSimulationi' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_7Oct_ReleaseBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DBB30' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z24WriteControlRegister_CPPP16COFFEEPOT_DEVICEt' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_7Oct_ReleaseBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DB190' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z28FastForward_OneSimulationTICP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_7Oct_ReleaseBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DB970' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z31CloseChannel_CauseSimulationTICP16COFFEEPOT_DEVICE' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_7Oct_ReleaseBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DA630' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Z33Add_CoffeePotToSystem_PlugAndPlay12COFFEEPOT_IDPc' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Redefined in:   H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_533Library_2018_7Oct_ReleaseBuild.dlb[Sim_CoffeePot_SystemStructure_2018.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[Sim_CoffeePot_SystemStructure_2018.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DB7B0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_btowc' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[btowc.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DB270' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_clearerr' is defined in more than one library.
+        Defined in:     libio.dlb[clearerr.doj]
+        Redefined in:   libc.dlb[clearerr.doj]
+        Definition from libio.dlb[clearerr.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DA390' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fclose' is defined in more than one library.
+        Defined in:     libio.dlb[fclose.doj]
+        Redefined in:   libc.dlb[fclose.doj]
+        Definition from libio.dlb[fclose.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DB350' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_feof' is defined in more than one library.
+        Defined in:     libio.dlb[eof.doj]
+        Redefined in:   libc.dlb[feof.doj]
+        Definition from libio.dlb[eof.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DA8D0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_ferror' is defined in more than one library.
+        Defined in:     libio.dlb[ferror.doj]
+        Redefined in:   libc.dlb[ferror.doj]
+        Definition from libio.dlb[ferror.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DA2B0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fflush' is defined in more than one library.
+        Defined in:     libio.dlb[fflush.doj]
+        Redefined in:   libc.dlb[fflush.doj]
+        Definition from libio.dlb[fflush.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DBC10' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fgetc' is defined in more than one library.
+        Defined in:     libio.dlb[fgetc.doj]
+        Redefined in:   libc.dlb[fgetc.doj]
+        Definition from libio.dlb[fgetc.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DBA50' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fgetpos' is defined in more than one library.
+        Defined in:     libio.dlb[fgetpos.doj]
+        Redefined in:   libc.dlb[fgetpos.doj]
+        Definition from libio.dlb[fgetpos.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DA7F0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fgets' is defined in more than one library.
+        Defined in:     libio.dlb[fgets.doj]
+        Redefined in:   libc.dlb[fgets.doj]
+        Definition from libio.dlb[fgets.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DAB70' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fgetwc' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[fgetwc.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DC070' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fgetws' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[fgetws.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='038DBF90' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fopen' is defined in more than one library.
+        Defined in:     libio.dlb[fopen.doj]
+        Redefined in:   libc.dlb[fopen.doj]
+        Definition from libio.dlb[fopen.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039227E0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fprintf' is defined in more than one library.
+        Defined in:     libio.dlb[fprintf_32.doj]
+        Redefined in:   libc.dlb[fprintf32.doj]
+        Definition from libio.dlb[fprintf_32.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03921D60' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__fprintf64' is defined in more than one library.
+        Defined in:     libio.dlb[fprintf_64.doj]
+        Redefined in:   libc.dlb[fprintf64.doj]
+        Definition from libio.dlb[fprintf_64.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03921740' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fputc' is defined in more than one library.
+        Defined in:     libio.dlb[fputc.doj]
+        Redefined in:   libc.dlb[fputc.doj]
+        Definition from libio.dlb[fputc.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039221C0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fputs' is defined in more than one library.
+        Defined in:     libio.dlb[fputs.doj]
+        Redefined in:   libc.dlb[fputs.doj]
+        Definition from libio.dlb[fputs.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039222A0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fputwc' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[fputwc.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03921580' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fputws' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[fputws.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039219E0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fread' is defined in more than one library.
+        Defined in:     libio.dlb[fread.doj]
+        Redefined in:   libc.dlb[fread.doj]
+        Definition from libio.dlb[fread.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039229A0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_freopen' is defined in more than one library.
+        Defined in:     libio.dlb[freopen.doj]
+        Redefined in:   libc.dlb[freopen.doj]
+        Definition from libio.dlb[freopen.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03921040' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fscanf' is defined in more than one library.
+        Defined in:     libio.dlb[fscanf_32.doj]
+        Redefined in:   libc.dlb[fscanf32.doj]
+        Definition from libio.dlb[fscanf_32.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03921120' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__fscanf64' is defined in more than one library.
+        Defined in:     libio.dlb[fscanf_64.doj]
+        Redefined in:   libc.dlb[fscanf64.doj]
+        Definition from libio.dlb[fscanf_64.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03922620' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fseek' is defined in more than one library.
+        Defined in:     libio.dlb[fseek.doj]
+        Redefined in:   libc.dlb[fseek.doj]
+        Definition from libio.dlb[fseek.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03921AC0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fsetpos' is defined in more than one library.
+        Defined in:     libio.dlb[fsetpos.doj]
+        Redefined in:   libc.dlb[fsetpos.doj]
+        Definition from libio.dlb[fsetpos.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03922380' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_ftell' is defined in more than one library.
+        Defined in:     libio.dlb[ftell.doj]
+        Redefined in:   libc.dlb[ftell.doj]
+        Definition from libio.dlb[ftell.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03921200' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fwide' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[fwide.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03922700' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fwprintf' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[fwprintf32.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03921900' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__fwprintf64' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[fwprintf64.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03921820' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fwrite' is defined in more than one library.
+        Defined in:     libio.dlb[fwrite.doj]
+        Redefined in:   libc.dlb[fwrite.doj]
+        Definition from libio.dlb[fwrite.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03922E00' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_fwscanf' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[fwscanf32.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03922EE0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__fwscanf64' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[fwscanf64.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03924E08' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_getc' is defined in more than one library.
+        Defined in:     libio.dlb[getc.doj]
+        Redefined in:   libc.dlb[getc.doj]
+        Definition from libio.dlb[getc.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03924C48' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_getchar' is defined in more than one library.
+        Defined in:     libio.dlb[getchar.doj]
+        Redefined in:   libc.dlb[getchar.doj]
+        Definition from libio.dlb[getchar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03923208' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_gets' is defined in more than one library.
+        Defined in:     libio.dlb[gets.doj]
+        Redefined in:   libc.dlb[gets.doj]
+        Definition from libio.dlb[gets.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039232E8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_getwc' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[getwc.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039240E8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_getwchar' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[getwchar.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039247E8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_mbrlen' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[mbrlen.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03923AC8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_mbrtowc' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[mbrtowc.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03924B68' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_mbsinit' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[mbsinit.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03924468' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_mbsrtowcs' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[mbsrtowc.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03923BA8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_printf' is defined in more than one library.
+        Defined in:     libio.dlb[printf_32.doj]
+        Redefined in:   libc.dlb[printf32.doj]
+        Definition from libio.dlb[printf_32.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03923828' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__printf64' is defined in more than one library.
+        Defined in:     libio.dlb[printf_64.doj]
+        Redefined in:   libc.dlb[printf64.doj]
+        Definition from libio.dlb[printf_64.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03923D68' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_putc' is defined in more than one library.
+        Defined in:     libio.dlb[putc.doj]
+        Redefined in:   libc.dlb[putc.doj]
+        Definition from libio.dlb[putc.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039233C8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_putchar' is defined in more than one library.
+        Defined in:     libio.dlb[putchar.doj]
+        Redefined in:   libc.dlb[putchar.doj]
+        Definition from libio.dlb[putchar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03924388' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_puts' is defined in more than one library.
+        Defined in:     libio.dlb[puts.doj]
+        Redefined in:   libc.dlb[puts.doj]
+        Definition from libio.dlb[puts.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03924008' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_putwc' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[putwc.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039248C8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_putwchar' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[putwchar.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03923F28' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_remove' is defined in more than one library.
+        Defined in:     libio.dlb[remove.doj]
+        Redefined in:   libc.dlb[remove.doj]
+        Definition from libio.dlb[remove.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039249A8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_rename' is defined in more than one library.
+        Defined in:     libio.dlb[rename.doj]
+        Redefined in:   libc.dlb[rename.doj]
+        Definition from libio.dlb[rename.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039387D8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_rewind' is defined in more than one library.
+        Defined in:     libio.dlb[rewind.doj]
+        Redefined in:   libc.dlb[rewind.doj]
+        Definition from libio.dlb[rewind.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03937B98' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_scanf' is defined in more than one library.
+        Defined in:     libio.dlb[scanf_32.doj]
+        Redefined in:   libc.dlb[scanf32.doj]
+        Definition from libio.dlb[scanf_32.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039371F8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__scanf64' is defined in more than one library.
+        Defined in:     libio.dlb[scanf_64.doj]
+        Redefined in:   libc.dlb[scanf64.doj]
+        Definition from libio.dlb[scanf_64.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03937E38' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_setbuf' is defined in more than one library.
+        Defined in:     libio.dlb[setbuf.doj]
+        Redefined in:   libc.dlb[setbuf.doj]
+        Definition from libio.dlb[setbuf.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03937F18' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_setvbuf' is defined in more than one library.
+        Defined in:     libio.dlb[setvbuf.doj]
+        Redefined in:   libc.dlb[setvbuf.doj]
+        Definition from libio.dlb[setvbuf.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03937C78' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_snprintf' is defined in more than one library.
+        Defined in:     libio.dlb[snprintf_32.doj]
+        Redefined in:   libc.dlb[snprintf32.doj]
+        Definition from libio.dlb[snprintf_32.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03938618' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__snprintf64' is defined in more than one library.
+        Defined in:     libio.dlb[snprintf_64.doj]
+        Redefined in:   libc.dlb[snprintf64.doj]
+        Definition from libio.dlb[snprintf_64.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039373B8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_sprintf' is defined in more than one library.
+        Defined in:     libio.dlb[sprintf_32.doj]
+        Redefined in:   libc.dlb[sprintf32.doj]
+        Definition from libio.dlb[sprintf_32.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039380D8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__sprintf64' is defined in more than one library.
+        Defined in:     libio.dlb[sprintf_64.doj]
+        Redefined in:   libc.dlb[sprintf64.doj]
+        Definition from libio.dlb[sprintf_64.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039378F8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_sscanf' is defined in more than one library.
+        Defined in:     libio.dlb[sscanf_32.doj]
+        Redefined in:   libc.dlb[sscanf32.doj]
+        Definition from libio.dlb[sscanf_32.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039386F8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__sscanf64' is defined in more than one library.
+        Defined in:     libio.dlb[sscanf_64.doj]
+        Redefined in:   libc.dlb[sscanf64.doj]
+        Definition from libio.dlb[sscanf_64.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='039381B8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_swprintf' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[swprintf32.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03938378' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__swprintf64' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[swprintf64.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03938998' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_swscanf' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[swscanf32.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03938A78' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__swscanf64' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[swscanf64.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03937038' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_ungetc' is defined in more than one library.
+        Defined in:     libio.dlb[ungetc.doj]
+        Redefined in:   libc.dlb[ungetc.doj]
+        Definition from libio.dlb[ungetc.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03937738' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_ungetwc' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[ungetwc.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03937818' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wcstod' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[v35_wstod.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03938DF8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_vfprintf' is defined in more than one library.
+        Defined in:     libio.dlb[vfprintf_32.doj]
+        Redefined in:   libc.dlb[vfprintf32.doj]
+        Definition from libio.dlb[vfprintf_32.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03938C38' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__vfprintf64' is defined in more than one library.
+        Defined in:     libio.dlb[vfprintf_64.doj]
+        Redefined in:   libc.dlb[vfprintf64.doj]
+        Definition from libio.dlb[vfprintf_64.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03938D18' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_vfwprintf' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[vfwprint32.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393C650' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__vfwprintf64' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[vfwprint64.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393CF10' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_vprintf' is defined in more than one library.
+        Defined in:     libio.dlb[vprintf_32.doj]
+        Redefined in:   libc.dlb[vprintf32.doj]
+        Definition from libio.dlb[vprintf_32.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393BCB0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__vprintf64' is defined in more than one library.
+        Defined in:     libio.dlb[vprintf_64.doj]
+        Redefined in:   libc.dlb[vprintf64.doj]
+        Definition from libio.dlb[vprintf_64.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393B930' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_vsnprintf' is defined in more than one library.
+        Defined in:     libio.dlb[vsnprintf_32.doj]
+        Redefined in:   libc.dlb[vsnprint32.doj]
+        Definition from libio.dlb[vsnprintf_32.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393C810' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__vsnprintf64' is defined in more than one library.
+        Defined in:     libio.dlb[vsnprintf_64.doj]
+        Redefined in:   libc.dlb[vsnprint64.doj]
+        Definition from libio.dlb[vsnprintf_64.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393C2D0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_vsprintf' is defined in more than one library.
+        Defined in:     libio.dlb[vsprintf_32.doj]
+        Redefined in:   libc.dlb[vsprintf32.doj]
+        Definition from libio.dlb[vsprintf_32.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393C730' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__vsprintf64' is defined in more than one library.
+        Defined in:     libio.dlb[vsprintf_64.doj]
+        Redefined in:   libc.dlb[vsprintf64.doj]
+        Definition from libio.dlb[vsprintf_64.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393BBD0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_vswprintf' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[vswprint32.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393BD90' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__vswprintf64' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[vswprint64.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393BA10' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_vwprintf' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[vwprintf32.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393BF50' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__vwprintf64' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[vwprintf64.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393D0D0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wcrtomb' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wcrtomb.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393C030' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wcscat' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wcscat.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393B850' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wcscmp' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wcscmp.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393C490' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wcscoll' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wcscoll.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393C570' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wcscpy' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wcscpy.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393C9D0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wcscspn' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wcscspn.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393CAB0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wcslen' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wcslen.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393CD50' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wcsncat' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wcsncat.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393CFF0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wcsncpy' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wcsncpy.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393D370' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wcsrtombs' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wcsrtomb.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0393D1B0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wcstol' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wcstol.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394E890' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wcstoul' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wcstoul.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394EA50' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wcsxfrm' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wcsxfrm.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394DA90' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wctob' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wctob.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394F230' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wmemcmp' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wmemcmp.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394EDD0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wmemcpy' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wmemcpy.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394EF90' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wmemmove' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wmemmove.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394EEB0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wmemset' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wmemset.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394E430' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wprintf' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wprintf32.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394DEF0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__wprintf64' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wprintf64.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394D710' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_wscanf' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wscanf32.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394ECF0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__wscanf64' is defined in more than one library.
+        Defined in:     libio.dlb[widechar.doj]
+        Redefined in:   libc.dlb[wscanf64.doj]
+        Definition from libio.dlb[widechar.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394D8D0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Files' is defined in more than one library.
+        Defined in:     libio.dlb[xfiles.doj]
+        Redefined in:   libc.dlb[xfiles.doj]
+        Definition from libio.dlb[xfiles.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394E5F0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Stderr' is defined in more than one library.
+        Defined in:     libio.dlb[xfiles.doj]
+        Redefined in:   libc.dlb[xfiles.doj]
+        Definition from libio.dlb[xfiles.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394E510' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Stdin' is defined in more than one library.
+        Defined in:     libio.dlb[xfiles.doj]
+        Redefined in:   libc.dlb[xfiles.doj]
+        Definition from libio.dlb[xfiles.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394E190' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__Stdout' is defined in more than one library.
+        Defined in:     libio.dlb[xfiles.doj]
+        Redefined in:   libc.dlb[xfiles.doj]
+        Definition from libio.dlb[xfiles.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394E350' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_APIRequestSpaceSize' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394E7B0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_ISRRequestSpaceSize' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394F3F0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_LocalEndptSpaceSize' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394F5B0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_numAnonPorts' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394F310' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_numPorts' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='0394F4D0' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_num_api_requests' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03A0F418' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_num_isr_requests' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03A0F178' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_num_rx_buffers' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03A0FCD8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_num_tx_buffers' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03A0FDB8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_rx_buffer_size' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03A10598' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_tx_buffer_size' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03A103D8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_vAPIRequestSpace' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03A0FA38' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_vISRRequestSpace' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03A0FE98' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_vLocalEndptSpace' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03A0EFB8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_vReceiveBufferSpace' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03A0EED8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '__adi_mcapi_vTransmitBufferSpace' is defined in more than one library.
+        Defined in:     H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj]
+        Redefined in:   libssl.dlb[Globals.doj]
+        Definition from H:\ENCM511LAB-private\CoffeePot_assignment_1_Core0\include\CoffeePot_609Library_Release30Oct2018_Core0.dlb[mcapi_config.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03A0F098' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_raise_interrupt' is defined in more than one library.
+        Defined in:     libsmall.dlb[raiseint_s.doj]
+        Redefined in:   libevent.dlb[raiseint.doj]
+        Definition from libsmall.dlb[raiseint_s.doj] will be used.]]></TEXT>
+</MSG>
+<MSG id='03A0EDF8' mid='li2050' type='Warning' suppressed=''>
+<TEXT><![CDATA[Symbol '_register_handler' is defined in more than one library.
+        Defined in:     libsmall.dlb[reghdlr_s.doj]
+        Redefined in:   libevent.dlb[reghdlr.doj]
+        Definition from libsmall.dlb[reghdlr_s.doj] will be used.]]></TEXT>
+</MSG>
+</DOCUMENT>

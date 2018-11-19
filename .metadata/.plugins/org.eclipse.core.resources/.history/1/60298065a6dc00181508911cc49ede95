@@ -1,0 +1,216 @@
+/*
+ * My_CoffeePot_Functions.cpp
+ *
+ *  Created on: Oct 26, 2018
+ *      Author: keenan.gaudio
+ */
+
+#include <stdio.h>
+#include "../include/Sim_CoffeePot_Functions2018.h"
+#include "../include/Sim_CoffeePot_SimulatorStructures2018.h"
+#include "My_CoffeePot_Functions.h"
+
+#define SHOW_FUNCTION_STUB_INFORMATION 1
+
+
+void ShowNameProcessorUsed( void ){
+#if defined(__ADSPBF533__)
+	char processor[] = "__ADSPBF533__";
+#else
+	char processor[] = "__ADSPBF609__";
+#endif
+	printf ("CoffeePot running on %s system\n\n", processor);
+}
+
+inline void ShowFunctionStubInformation (char* functionNameInformation) {
+	if (printCoffeePotInfo && SHOW_FUNCTION_STUB_INFORMATION) printf("%s\n", functionNameInformation);
+}
+
+
+void Init_CoffeePot( COFFEEPOT_DEVICE* pCoffeePot ){
+	ShowFunctionStubInformation("Init_CoffeePot");
+	OpenChannel_CoffeePot(pCoffeePot);
+#if 0
+	WriteControlRegister_CPP(pCoffeePot, 0x1);
+#else
+	// set the POWER_ON and INIT BIT in coffeepot control reg
+	//unsigned short int oldCrtl = pCoffeePot->controlRegister;
+	pCoffeePot->controlRegister |= INIT_STAY_POWERED_ON_BIT;
+#endif
+	CloseChannel_CauseSimulationTIC(pCoffeePot);
+
+	while (!(pCoffeePot->controlRegister & DEVICE_READY_BIT_READ_ONLY)) FastForward_OneSimulationTIC(pCoffeePot);
+	// read control reg in loop until bit 4 (init bit) is ready
+	// exit when ready
+	//if (SHOW_FUNCTION_STUB_INFORMATION) printf("leaving init with control reg : 0x%04x",pCoffeePot->controlRegister);
+
+}
+
+void Activate_LED_Control( COFFEEPOT_DEVICE* pCoffeePot ){
+	ShowFunctionStubInformation("Activate_LED_Control");
+
+	// turn on LED_POWER bit in ctrl reg without changing others
+	//unsigned short int oldCrtl = pCoffeePot->controlRegister;
+	pCoffeePot->controlRegister |= LED_POWER_ENABLE_BIT;
+
+	CloseChannel_CauseSimulationTIC(pCoffeePot);
+	 FastForward_OneSimulationTIC(pCoffeePot);
+}
+
+void Demonstrate_LEDControl_CPP ( COFFEEPOT_DEVICE* pCoffeePot ){
+	ShowFunctionStubInformation("Demonstrate_LEDControl_CPP");
+	static unsigned short int state = 0;
+
+	//  Use state machine from Lab1
+	//  state 0 -- turn on LED1 and off LED2
+	//  state 1 -- turn on LED2 and off LED1
+	switch(state) {
+	case 0:
+			pCoffeePot->controlRegister |= LED1_CONTROL_BIT ;	//on
+			pCoffeePot->controlRegister &= ~LED2_CONTROL_BIT ;	//off
+			state++;
+			break;
+	case 1:
+			pCoffeePot->controlRegister &= ~LED1_CONTROL_BIT ;	//off
+			pCoffeePot->controlRegister |= LED2_CONTROL_BIT ;	//on
+			state = 0;
+			break;
+	}
+	 FastForward_OneSimulationTIC(pCoffeePot);
+}
+
+void Demonstrate_LEDControl_ASM ( COFFEEPOT_DEVICE* pCoffeePot ){
+	ShowFunctionStubInformation("Demonstrate_LEDControl_ASM");
+	//TODO convert to ASM
+}
+
+void Activate_Water_Control ( COFFEEPOT_DEVICE* pCoffeePot ){
+	ShowFunctionStubInformation("Activate_Water_Control");
+
+	// turn on WATER POWER bit in ctrl reg without changing others
+	//unsigned short int oldCrtl = pCoffeePot->controlRegister;
+	pCoffeePot->controlRegister |= WATER_POWER_ENABLE_BIT;
+
+	CloseChannel_CauseSimulationTIC(pCoffeePot);
+	 FastForward_OneSimulationTIC(pCoffeePot);
+}
+
+void fillCoffeePotToWaterLevel (COFFEEPOT_DEVICE* pCoffeePot, int wLevel){
+	//TODO fix this
+	ShowFunctionStubInformation("fillCoffeePotToWaterLevel");
+	//  Activate water, fill to level (blocking)
+		int currentWaterLevel = CurrentWaterLevel_CPP(pCoffeePot);
+		int neededWater =  wLevel - currentWaterLevel;
+
+		if (CurrentTemperature_CPP(pCoffeePot) >= 79) neededWater+=10;
+
+		if (neededWater > 255) neededWater = 255;
+		else if (neededWater < 0) neededWater = 0;
+
+		pCoffeePot->waterInFlowRegister  = neededWater;
+//TODO while not if
+	if (CurrentWaterLevel_CPP(pCoffeePot) < wLevel) {
+		if(CurrentWaterLevel_CPP(pCoffeePot) > wLevel*4/5)
+			pCoffeePot->waterInFlowRegister = 1;
+		FastForward_OneSimulationTIC(pCoffeePot);
+	}
+
+	pCoffeePot->waterInFlowRegister = 0;
+}
+
+void Activate_Heater_Control ( COFFEEPOT_DEVICE* pCoffeePot ){
+	ShowFunctionStubInformation("Activate_Heater_Control");
+
+	// turn on HEATER POWER bit in ctrl reg without changing others
+	//unsigned short int oldCrtl = pCoffeePot->controlRegister;
+	pCoffeePot->controlRegister |= HEATER_POWER_ENABLE_BIT;
+
+	CloseChannel_CauseSimulationTIC(pCoffeePot);
+	 FastForward_OneSimulationTIC(pCoffeePot);
+}
+
+void HeatWaterToTemperature ( COFFEEPOT_DEVICE* pCoffeePot, int hLevel){
+	//TODO fix this
+	ShowFunctionStubInformation("HeatWaterToTemperature");
+	// heat to temp (blocking)
+	pCoffeePot->heaterBoostRegister = 1;
+	pCoffeePot->heaterRegister = 165;
+	while (CurrentTemperature_CPP(pCoffeePot) <( hLevel )) {	//blocking version would have this as a while loop
+		pCoffeePot->heaterRegister = 255;
+		if(CurrentTemperature_CPP(pCoffeePot) > hLevel*99/100)
+			pCoffeePot->heaterRegister = 2;
+		FastForward_OneSimulationTIC(pCoffeePot);
+	}
+	pCoffeePot->heaterBoostRegister = 0;
+	pCoffeePot->heaterRegister = 0;
+	FastForward_OneSimulationTIC(pCoffeePot);
+}
+
+void Control_Both_Temp_Water ( COFFEEPOT_DEVICE* pCoffeePot, int wLevel, int hLevel){
+	ShowFunctionStubInformation("Control_Both_Temp_Water");
+	//TODO water + heater
+	fillCoffeePotToWaterLevel(pCoffeePot, wLevel);
+	HeatWaterToTemperature(pCoffeePot, hLevel - 35);
+
+		HeatWaterToTemperature_noBlock(pCoffeePot, hLevel);
+		fillCoffeePotToWaterLevel_noBlock(pCoffeePot, wLevel);
+		FastForward_OneSimulationTIC(pCoffeePot);
+
+}
+
+double mapZeroToMax(double in, double inMax, double max) {
+	double convertRatio =  inMax / max;
+	if(in > inMax) in = inMax;
+	return in * (max / inMax);
+}
+
+void fillCoffeePotToWaterLevel_noBlock (COFFEEPOT_DEVICE* pCoffeePot, int wLevel){
+	//goes slow
+	ShowFunctionStubInformation("fillCoffeePotToWaterLevel");
+	//  Activate water, fill to level (blocking)
+	int currentWaterLevel = CurrentWaterLevel_CPP(pCoffeePot);
+	int neededWater =  wLevel - currentWaterLevel;
+
+	if (neededWater > 255) neededWater = 255;
+	else if (neededWater < 0) neededWater = 0;
+
+	if (CurrentTemperature_CPP(pCoffeePot) >= 79) neededWater+=10;
+
+	pCoffeePot->waterInFlowRegister  = neededWater;
+
+	if (printCoffeePotInfo) printf("waterlevel %d / %d, expected water reg %d ,water register %d\n", currentWaterLevel, wLevel, neededWater, pCoffeePot->waterInFlowRegister);
+
+	if (currentWaterLevel < wLevel) {
+		//if(currentWaterLevel > wLevel - 40)
+		//	pCoffeePot->waterInFlowRegister = 1;
+		// TODO may not need this
+	} else pCoffeePot->waterInFlowRegister = 0;
+
+	//  Activate water, fill to level (non blocking)
+}
+
+void HeatWaterToTemperature_noBlock (COFFEEPOT_DEVICE* pCoffeePot, int hLevel){
+	ShowFunctionStubInformation("HeatWaterToTemperature");
+	// heat to currentTemperature (blocking)
+	int currentTemperature = CurrentTemperature_CPP(pCoffeePot);
+	int HR,HBR,targetTempDiff = hLevel - currentTemperature + 1;
+
+	if (targetTempDiff < 0) targetTempDiff = 0;
+
+	pCoffeePot->heaterBoostRegister = HBR = ((int) mapZeroToMax(targetTempDiff, hLevel, 0xe)) + 2;
+	pCoffeePot->heaterRegister = HR = ((int) mapZeroToMax(targetTempDiff+35, hLevel, 0xff));
+
+	if(printCoffeePotInfo) printf("heat is %d / %d, heater is %d /%d, heatBoost is %d / %d\n", currentTemperature, hLevel, HR, 0xff, HBR, 0xf);
+
+	if (currentTemperature <( hLevel )) { ; ;
+		//pCoffeePot->heaterRegister = 255;
+		//if(currentTemperature > hLevel - 35)
+			//pCoffeePot->heaterRegister = 2;
+	} else {
+		pCoffeePot->heaterBoostRegister = 0;
+		pCoffeePot->heaterRegister = 0;
+	}
+}
+
+
+

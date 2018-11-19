@@ -1,0 +1,97 @@
+14:10:59 **** Incremental Build of configuration Debug for project CoffeePot_assignment_1_Core0 ****
+make all 
+'Building file: ../src/Activate_LED_Control_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn -file-attr ProjectName="CoffeePot_assignment_1_Core0" -proc ADSP-BF609 -si-revision any -g -DCORE0 -D_DEBUG -DADI_MCAPI @includes-32222ed20b7e1eeb4ac0277099ebd22c.txt -gnu-style-dependencies -MM -Mo "src/Activate_LED_Control_ASM.d" -o "src/Activate_LED_Control_ASM.doj" "../src/Activate_LED_Control_ASM.asm"
+[Informational ea1056] "../src/Activate_LED_Control_ASM.asm":24 Preg read after write which requires 4 extra cycles
+
+'Finished building: ../src/Activate_LED_Control_ASM.asm'
+' '
+'Building file: ../src/CoffeePot_assignment_1.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn -c -file-attr ProjectName="CoffeePot_assignment_1_Core0" -proc ADSP-BF609 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -DADI_MCAPI @includes-835cd2e7782a87ce7e2a7f7fdc7db35a.txt -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/CoffeePot_assignment_1.d" -c++ -o "src/CoffeePot_assignment_1.doj" "../src/CoffeePot_assignment_1.cpp"
+'Finished building: ../src/CoffeePot_assignment_1.cpp'
+' '
+'Building file: ../src/Demonstrate_LEDControl_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn -file-attr ProjectName="CoffeePot_assignment_1_Core0" -proc ADSP-BF609 -si-revision any -g -DCORE0 -D_DEBUG -DADI_MCAPI @includes-32222ed20b7e1eeb4ac0277099ebd22c.txt -gnu-style-dependencies -MM -Mo "src/Demonstrate_LEDControl_ASM.d" -o "src/Demonstrate_LEDControl_ASM.doj" "../src/Demonstrate_LEDControl_ASM.asm"
+[Informational ea1056] "../src/Demonstrate_LEDControl_ASM.asm":25 Preg read after write which requires 4 extra cycles
+
+'Finished building: ../src/Demonstrate_LEDControl_ASM.asm'
+' '
+'Building target: CoffeePot_assignment_1_Core0.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn -proc ADSP-BF609 -si-revision any -TH:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/system/startup_ldf/app.ldf -no-mem -LH:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/Debug/system/startup_ldf H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_609Library_Release30Oct2018_Core0.dlb H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_533Library_2018_4Oct_DebugBuild.dlb H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_533Library_2018_7Oct_ReleaseBuild.dlb -flags-link -MDCORE0,-MDDEBUG -flags-link -i,H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include -add-debug-libpaths -o CoffeePot_assignment_1_Core0.dxe @input-file.txt  -flags-link -od,.\.
+'Finished building target: CoffeePot_assignment_1_Core0.dxe'
+' '
+14:11:14 **** Incremental Build of configuration Debug for project CoffeePot_assignment_1_Core0 ****
+make all 
+make: Nothing to be done for `all'.
+14:13:06 **** Incremental Build of configuration Debug for project CoffeePot_assignment_1_Core0 ****
+make all 
+'Building file: ../src/My_CoffeePot_Functions.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn -c -file-attr ProjectName="CoffeePot_assignment_1_Core0" -proc ADSP-BF609 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -DADI_MCAPI @includes-835cd2e7782a87ce7e2a7f7fdc7db35a.txt -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_Functions.d" -c++ -o "src/My_CoffeePot_Functions.doj" "../src/My_CoffeePot_Functions.cpp"
+"..\src\My_CoffeePot_Functions.cpp", line 150: cc0020:  error: identifier "Demonstrate_LEDControl_ASM" is undefined
+  	Demonstrate_LEDControl_ASM(pCoffeePot);
+  	^
+
+1 error detected in the compilation of "..\src\My_CoffeePot_Functions.cpp".
+cc3089: fatal error: Compilation failed (code:2)
+make: *** [src/My_CoffeePot_Functions.doj] Error 1
+14:13:30 **** Incremental Build of configuration Debug for project CoffeePot_assignment_1_Core0 ****
+make all 
+'Building file: ../src/My_CoffeePot_Functions.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn -c -file-attr ProjectName="CoffeePot_assignment_1_Core0" -proc ADSP-BF609 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -DADI_MCAPI @includes-835cd2e7782a87ce7e2a7f7fdc7db35a.txt -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_Functions.d" -c++ -o "src/My_CoffeePot_Functions.doj" "../src/My_CoffeePot_Functions.cpp"
+'Finished building: ../src/My_CoffeePot_Functions.cpp'
+' '
+'Building target: CoffeePot_assignment_1_Core0.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn -proc ADSP-BF609 -si-revision any -TH:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/system/startup_ldf/app.ldf -no-mem -LH:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/Debug/system/startup_ldf H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_609Library_Release30Oct2018_Core0.dlb H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_533Library_2018_4Oct_DebugBuild.dlb H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_533Library_2018_7Oct_ReleaseBuild.dlb -flags-link -MDCORE0,-MDDEBUG -flags-link -i,H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include -add-debug-libpaths -o CoffeePot_assignment_1_Core0.dxe @input-file.txt  -flags-link -od,.\.
+'Finished building target: CoffeePot_assignment_1_Core0.dxe'
+' '
+14:19:01 **** Incremental Build of configuration Debug for project CoffeePot_assignment_1_Core0 ****
+make all 
+'Building file: ../src/CoffeePot_assignment_1.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn -c -file-attr ProjectName="CoffeePot_assignment_1_Core0" -proc ADSP-BF609 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -DADI_MCAPI @includes-835cd2e7782a87ce7e2a7f7fdc7db35a.txt -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/CoffeePot_assignment_1.d" -c++ -o "src/CoffeePot_assignment_1.doj" "../src/CoffeePot_assignment_1.cpp"
+'Finished building: ../src/CoffeePot_assignment_1.cpp'
+' '
+'Building file: ../src/My_CoffeePot_Functions.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn -c -file-attr ProjectName="CoffeePot_assignment_1_Core0" -proc ADSP-BF609 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -DADI_MCAPI @includes-835cd2e7782a87ce7e2a7f7fdc7db35a.txt -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_Functions.d" -c++ -o "src/My_CoffeePot_Functions.doj" "../src/My_CoffeePot_Functions.cpp"
+'Finished building: ../src/My_CoffeePot_Functions.cpp'
+' '
+'Building target: CoffeePot_assignment_1_Core0.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn -proc ADSP-BF609 -si-revision any -TH:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/system/startup_ldf/app.ldf -no-mem -LH:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/Debug/system/startup_ldf H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_609Library_Release30Oct2018_Core0.dlb H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_533Library_2018_4Oct_DebugBuild.dlb H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_533Library_2018_7Oct_ReleaseBuild.dlb -flags-link -MDCORE0,-MDDEBUG -flags-link -i,H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include -add-debug-libpaths -o CoffeePot_assignment_1_Core0.dxe @input-file.txt  -flags-link -od,.\.
+'Finished building target: CoffeePot_assignment_1_Core0.dxe'
+' '
+14:24:25 **** Incremental Build of configuration Debug for project CoffeePot_assignment_1_Core0 ****
+make all 
+make: Nothing to be done for `all'.
+14:24:55 **** Incremental Build of configuration Debug for project CoffeePot_assignment_1_Core0 ****
+make all 
+'Building file: ../src/CoffeePot_assignment_1.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn -c -file-attr ProjectName="CoffeePot_assignment_1_Core0" -proc ADSP-BF609 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -DADI_MCAPI @includes-835cd2e7782a87ce7e2a7f7fdc7db35a.txt -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/CoffeePot_assignment_1.d" -c++ -o "src/CoffeePot_assignment_1.doj" "../src/CoffeePot_assignment_1.cpp"
+'Finished building: ../src/CoffeePot_assignment_1.cpp'
+' '
+'Building target: CoffeePot_assignment_1_Core0.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn -proc ADSP-BF609 -si-revision any -TH:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/system/startup_ldf/app.ldf -no-mem -LH:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/Debug/system/startup_ldf H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_609Library_Release30Oct2018_Core0.dlb H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_533Library_2018_4Oct_DebugBuild.dlb H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_533Library_2018_7Oct_ReleaseBuild.dlb -flags-link -MDCORE0,-MDDEBUG -flags-link -i,H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include -add-debug-libpaths -o CoffeePot_assignment_1_Core0.dxe @input-file.txt  -flags-link -od,.\.
+'Finished building target: CoffeePot_assignment_1_Core0.dxe'
+' '
+14:29:59 **** Incremental Build of configuration Debug for project CoffeePot_assignment_1_Core0 ****
+make all 
+'Building file: ../src/CoffeePot_assignment_1.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn -c -file-attr ProjectName="CoffeePot_assignment_1_Core0" -proc ADSP-BF609 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -DADI_MCAPI @includes-835cd2e7782a87ce7e2a7f7fdc7db35a.txt -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/CoffeePot_assignment_1.d" -c++ -o "src/CoffeePot_assignment_1.doj" "../src/CoffeePot_assignment_1.cpp"
+'Finished building: ../src/CoffeePot_assignment_1.cpp'
+' '
+'Building target: CoffeePot_assignment_1_Core0.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn -proc ADSP-BF609 -si-revision any -TH:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/system/startup_ldf/app.ldf -no-mem -LH:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/Debug/system/startup_ldf H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_609Library_Release30Oct2018_Core0.dlb H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_609LibraryDebug_30Oct2018_Core0.dlb H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_533Library_2018_4Oct_DebugBuild.dlb H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include/CoffeePot_533Library_2018_7Oct_ReleaseBuild.dlb -flags-link -MDCORE0,-MDDEBUG -flags-link -i,H:/ENCM511LAB-private/CoffeePot_assignment_1_Core0/include -add-debug-libpaths -o CoffeePot_assignment_1_Core0.dxe @input-file.txt  -flags-link -od,.\.
+'Finished building target: CoffeePot_assignment_1_Core0.dxe'
+' '

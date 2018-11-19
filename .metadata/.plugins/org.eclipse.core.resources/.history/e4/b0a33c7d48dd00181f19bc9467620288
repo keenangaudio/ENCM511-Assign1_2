@@ -1,0 +1,31 @@
+/*	
+ *	
+ *	Activate_LED_Control_ASM.asm
+ *
+ *
+ */
+.section program;
+	
+	#define FIO_FLAG REG_PORTF_INEN
+	
+.global _Activate_LED_Control_ASM;
+_Activate_LED_Control_ASM:
+ #define portPattern_R0 R0
+ #define portPointer_P0 P0
+ #define temp_R1 R1
+ 
+ #define INPUT_MASK 0x0002
+	//pCoffeePot->controlRegister |= LED_POWER_ENABLE_BIT;
+	//set LEDs to zero
+	//pCoffeePot->controlRegister &= ~(0xf << LED_CONTROL_FIELD_OFFSET);
+ 
+	P0=R0
+	portPattern_R0 = W[portPointer_P0](Z);
+	temp_R1 = INPUT_MASK;
+	R2 = portPattern_R0 | temp_R1;
+	[P0] = R2;
+
+_Activate_LED_Control_ASM.END:
+	RTS;
+	
+	

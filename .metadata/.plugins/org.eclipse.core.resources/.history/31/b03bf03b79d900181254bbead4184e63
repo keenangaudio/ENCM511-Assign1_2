@@ -1,0 +1,36 @@
+/*****************************************************************************
+ * CoffeePot_assignment_1_Core0.h
+ *****************************************************************************/
+
+#ifndef __COFFEEPOT_ASSIGNMENT_1_CORE0_H__
+#define __COFFEEPOT_ASSIGNMENT_1_CORE0_H__
+	#include "../include/Sim_CoffeePot_SimulatorStructures2018.h"
+
+	//maximum of 4
+	#define NUM_COFFEEPOTS 1
+
+	static bool printCoffeePotInfo;
+
+	void ShowCoffeePotInformation (int, COFFEEPOT_DEVICE*);
+
+	void ShowNameProcessorUsed( void );
+
+	void Init_CoffeePot(COFFEEPOT_DEVICE*);
+
+	void Activate_LED_Control(COFFEEPOT_DEVICE*);
+
+	void Demonstrate_LEDControl_CPP (COFFEEPOT_DEVICE*);
+
+	void Demonstrate_LEDControl_ASM (COFFEEPOT_DEVICE*);
+
+	void Activate_Water_Control (COFFEEPOT_DEVICE*);
+
+	void fillCoffeePotToWaterLevel (COFFEEPOT_DEVICE*, int);
+
+	void Activate_Heater_Control (COFFEEPOT_DEVICE*);
+
+	void HeatWaterToTemperature (COFFEEPOT_DEVICE*, int);
+
+	void Control_Both_Temp_Water (COFFEEPOT_DEVICE*, int, int);
+
+#endif /* __COFFEEPOT_ASSIGNMENT_1_CORE0_H__ */

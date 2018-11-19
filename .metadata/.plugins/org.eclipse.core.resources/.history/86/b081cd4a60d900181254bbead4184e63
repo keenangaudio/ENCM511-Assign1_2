@@ -1,0 +1,30 @@
+/*****************************************************************************
+ * CoffeePot_assignment_1_Core0.h
+ *****************************************************************************/
+
+#ifndef __COFFEEPOT_ASSIGNMENT_1_CORE0_H__
+#define __COFFEEPOT_ASSIGNMENT_1_CORE0_H__
+
+	void ShowNameProcessorUsed( );
+
+	void Init_CoffeePotSimulation();
+
+	void Init_CoffeePot( );
+
+	void Activate_LED_Control( );
+
+	void Demonstrate_LEDControl_CPP ();
+
+	void Demonstrate_LEDControl_ASM ();
+
+	void Activate_Water_Control ();
+
+	void fillCoffeePotToWaterLevel (int);
+
+	void Activate_Heater_Control ();
+
+	void HeatWaterToTemperature (int);
+
+	void Control_Both_Temp_Water (int, int);
+
+#endif /* __COFFEEPOT_ASSIGNMENT_1_CORE0_H__ */

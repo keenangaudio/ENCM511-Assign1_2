@@ -1,0 +1,37 @@
+/*	
+ *	
+ *	Activate_LED_Control_ASM.asm
+ *
+ *
+ */
+ 
+.extern  __Z28FastForward_OneSimulationTICP16COFFEEPOT_DEVICE;
+ 
+.section program;
+	
+.global _Activate_LED_Control_ASM;
+_Activate_LED_Control_ASM:
+ #define portPattern_R0 R0
+ #define portPointer_P0 P0
+ #define temp_R1 R1
+ 
+ #define INPUT_MASK 0x0002
+ #define LED_MASK 0x0fff
+	//pCoffeePot->controlRegister |= LED_POWER_ENABLE_BIT;
+	//set LEDs to zero
+	//pCoffeePot->controlRegister &= ~(0xf << LED_CONTROL_FIELD_OFFSET);
+  	LINK 16;
+	P0=R0
+	portPattern_R0 = W[portPointer_P0](Z);
+	temp_R1 = INPUT_MASK;
+	R2 = portPattern_R0 | temp_R1;
+	R2 = R2 & temp_R1;
+	[P0] = R2;
+	
+ 	CALL __Z28FastForward_OneSimulationTICP16COFFEEPOT_DEVICE;
+ 	
+ 	UNLINK;
+_Activate_LED_Control_ASM.END:
+	RTS;
+	
+	

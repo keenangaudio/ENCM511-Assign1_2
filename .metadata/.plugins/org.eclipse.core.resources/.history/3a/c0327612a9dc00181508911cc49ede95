@@ -1,0 +1,151 @@
+/*****************************************************************************
+ * CoffeePot_assignment_1_Core0.cpp
+ *****************************************************************************/
+
+#include <stdio.h>
+#include <sys/platform.h>
+#include <sys/adi_core.h>
+#include <ccblkfn.h>
+#include "adi_initialize.h"
+#include "My_CoffeePot_Functions.h"
+
+#include "../include/Sim_CoffeePot_Functions2018.h"
+#include "../include/Sim_CoffeePot_SimulatorStructures2018.h"
+
+
+#define MAX_SECONDS		10
+#define MAX_WATER_LEVEL	260
+#define MAX_WATER_LEVEL_POT_2 250
+#define MAX_WATER_LEVEL_POT_3 250
+#define MAX_WATER_LEVEL_POT_4 250
+
+#define MAX_TEMPERATURE	80
+
+//TESTING
+#define DESIGN_1 1
+//#define DESIGN_2 1
+//#define DESIGN_3 1
+#define FINAL_CONTROL 1
+
+
+char __argv_string[] = "";
+
+int main(int argc, char *argv[])
+{
+	adi_initComponents();
+	
+
+
+	ShowNameProcessorUsed( );
+
+	Init_CoffeePotSimulation(NUM_COFFEEPOTS);
+
+#if NUM_COFFEEPOTS > 0
+	COFFEEPOT_DEVICE *pMyCoffeePot1 = Add_CoffeePotToSystem_PlugAndPlay(COFFEEPOT1, "Keenan's Coffeepot");
+
+	Init_CoffeePot(pMyCoffeePot1);
+
+	Activate_LED_Control(pMyCoffeePot1);
+	Activate_Water_Control (pMyCoffeePot1);
+	Activate_Heater_Control (pMyCoffeePot1);
+#endif
+#if NUM_COFFEEPOTS > 1
+	COFFEEPOT_DEVICE *pMyCoffeePot2 = Add_CoffeePotToSystem_PlugAndPlay(COFFEEPOT2, "Sunny's Coffeepot");
+
+	Init_CoffeePot(pMyCoffeePot2);
+
+	Activate_LED_Control(pMyCoffeePot2);
+	Activate_Water_Control (pMyCoffeePot2);
+	Activate_Heater_Control (pMyCoffeePot2);
+#endif
+#if NUM_COFFEEPOTS > 2
+	COFFEEPOT_DEVICE *pMyCoffeePot3 = Add_CoffeePotToSystem_PlugAndPlay(COFFEEPOT3, "Rae's Coffeepot");
+
+	Init_CoffeePot(pMyCoffeePot3);
+
+	Activate_LED_Control(pMyCoffeePot3);
+	Activate_Water_Control (pMyCoffeePot3);
+	Activate_Heater_Control (pMyCoffeePot3);
+#endif
+#if NUM_COFFEEPOTS > 3
+	COFFEEPOT_DEVICE *pMyCoffeePot4 = Add_CoffeePotToSystem_PlugAndPlay(COFFEEPOT4, "Louis' Coffeepot");
+
+	Init_CoffeePot(pMyCoffeePot4);
+
+	Activate_LED_Control(pMyCoffeePot4);
+	Activate_Water_Control (pMyCoffeePot4);
+	Activate_Heater_Control (pMyCoffeePot4);
+#endif
+
+#ifdef DESIGN_1
+
+	bool continueDemonstrate_LEDControl = true;
+	unsigned long int secondsCounter = 0;
+
+	while (continueDemonstrate_LEDControl) {
+		Demonstrate_LEDControl_CPP (pMyCoffeePot1);
+		if (++secondsCounter >= MAX_SECONDS) continueDemonstrate_LEDControl = false;
+		//ShowCoffeePotInformation(1, pMyCoffeePot1);
+	}
+
+#endif
+#ifdef DESIGN_2
+
+	bool continueDemonstrate_LEDControl_ASM = true;
+	secondsCounter = 0;
+
+	while (continueDemonstrate_LEDControl_ASM) {
+			Demonstrate_LEDControl_ASM (pMyCoffeePot1);
+			if (++secondsCounter >= MAX_SECONDS) continueDemonstrate_LEDControl_ASM = false;
+	}
+
+#endif
+#ifdef DESIGN_3
+
+
+	//TODO reactivate this
+	bool continueDemonstrate_WaterControl = true;
+	secondsCounter = 0;
+
+	while (continueDemonstrate_WaterControl) {
+		fillCoffeePotToWaterLevel (pMyCoffeePot1,MAX_WATER_LEVEL);
+		if (++secondsCounter >= MAX_SECONDS) continueDemonstrate_WaterControl = false;
+		//ShowCoffeePotInformation(1, pMyCoffeePot1);
+	}
+
+
+	bool continueDemonstrate_HeaterControl = true;
+	secondsCounter = 0;
+
+	while (continueDemonstrate_HeaterControl) {
+			HeatWaterToTemperature (pMyCoffeePot1,MAX_TEMPERATURE);
+			if (++secondsCounter >= MAX_SECONDS) continueDemonstrate_HeaterControl = false;
+			//ShowCoffeePotInformation(1, pMyCoffeePot1);
+	}
+
+#endif
+#ifdef FINAL_CONTROL
+
+	bool continueDemonstrate_Both_Temp_Water = true;
+	secondsCounter = 0;
+
+	while (continueDemonstrate_Both_Temp_Water) {
+			if (secondsCounter == 5 || secondsCounter == 100) {
+				if (secondsCounter == 5) printf("\n\n****Turning off all print statements****\n\n");
+				else printf("\n\n****resuming all print statements****\n\n");
+				printCoffeePotInfo = !printCoffeePotInfo;
+				TurnOffNotification(!printCoffeePotInfo);
+			}
+		Control_Both_Temp_Water (pMyCoffeePot1, MAX_WATER_LEVEL, MAX_TEMPERATURE);
+		//Control_Both_Temp_Water (pMyCoffeePot2, MAX_WATER_LEVEL_POT_2, MAX_TEMPERATURE);
+		//Control_Both_Temp_Water (pMyCoffeePot3, MAX_WATER_LEVEL_POT_3, MAX_TEMPERATURE);
+		//Control_Both_Temp_Water (pMyCoffeePot4, MAX_WATER_LEVEL_POT_4, MAX_TEMPERATURE);
+		if (++secondsCounter >= MAX_SECONDS*30) continueDemonstrate_Both_Temp_Water = false;
+	}
+
+#endif
+
+	printf("Completed all tests.\n");
+	return 0;
+}
+
